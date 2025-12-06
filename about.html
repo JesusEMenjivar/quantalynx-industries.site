@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Quantalyx Industries - Global leader in Industrial IoT, predictive maintenance, and secure manufacturing cloud solutions.">
+    <title>About Us | Quantalyx Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">QUANTALYX</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 4rem 2rem;">
+            <div class="container">
+                <h1>About Quantalyx Industries</h1>
+                <p class="tagline">Pioneering the Future of Autonomous Manufacturing</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container about-content">
+                <h2>Our Mission</h2>
+                <p>Quantalyx Industries is a global, rapidly scaling technology company dedicated to revolutionizing industrial operations through advanced automation, artificial intelligence, and cyber-physical security solutions. Founded with a vision to bridge the gap between operational technology and modern IT infrastructure, we have grown from a small robotics startup into a trusted partner for Tier-1 automotive, aerospace, and energy clients worldwide.</p>
+
+                <h2>Industrial IoT Excellence</h2>
+                <p>At the core of our platform lies a comprehensive Industrial Internet of Things ecosystem. Our proprietary sensor networks and edge computing devices enable real-time monitoring of critical manufacturing processes across diverse environments. From high-precision automotive assembly lines in the North American Manufacturing Division to semiconductor fabrication facilities in the Asia-Pacific Operations Center, our technology adapts to the unique demands of each deployment.</p>
+
+                <p>Our predictive maintenance algorithms leverage machine learning pipelines trained on billions of historical events from the Quantalyx Data Lake. These ML models detect subtle anomalies in vibration patterns, thermal signatures, and electrical consumption metrics, allowing maintenance teams to address issues before they escalate into costly production halts.</p>
+
+                <h2>Digital Twin Technology</h2>
+                <p>The Quantalyx Digital Twin Framework provides customers with a comprehensive virtual replica of their physical manufacturing environment. By integrating data from SCADA systems, PLCs, and our proprietary sensor arrays, we create accurate simulations that enable what-if scenario testing, capacity planning, and training without impacting live production. Our digital twins are powered by containerized microservices running on Kubernetes clusters, ensuring scalability and reliability across the global Quantalyx Infrastructure Network.</p>
+
+                <h2>Cyber-Physical Security</h2>
+                <p>In an era of increasing cyber threats targeting industrial control systems, Quantalyx Industries has made security a cornerstone of our platform. Our Security Operations Center operates around the clock, providing SOC monitoring, SIEM integration, and log analytics across all customer deployments. We employ a zero-trust networking model that requires continuous verification for every user and device attempting to access manufacturing systems.</p>
+
+                <p>The Quantalyx OT Security Division works closely with industrial clients to implement defense-in-depth strategies, network segmentation, and intrusion detection systems tailored to operational technology environments. Our incident response team has successfully mitigated threats ranging from ransomware attacks to sophisticated state-sponsored intrusions targeting critical infrastructure.</p>
+
+                <h2>The Secure Manufacturing Cloud</h2>
+                <p>Our flagship platform, the Secure Manufacturing Cloud, serves as the centralized intelligence layer for industrial operations. Running on a globally distributed infrastructure with data centers in Frankfurt, Singapore, and Northern Virginia, the platform offers AI-driven optimization, anomaly detection, and manufacturing analytics at scale. Integration with enterprise systems is facilitated through our RESTful APIs and support for industry protocols including OPC-UA, MQTT, and Modbus TCP.</p>
+
+                <div class="tech-stack">
+                    <span class="tech-tag">Kubernetes</span>
+                    <span class="tech-tag">Containerized Microservices</span>
+                    <span class="tech-tag">Linux</span>
+                    <span class="tech-tag">Edge Computing</span>
+                    <span class="tech-tag">ML Pipelines</span>
+                    <span class="tech-tag">Zero-Trust Networking</span>
+                    <span class="tech-tag">OPC-UA</span>
+                    <span class="tech-tag">MQTT</span>
+                    <span class="tech-tag">Digital Twins</span>
+                    <span class="tech-tag">SCADA Integration</span>
+                    <span class="tech-tag">SIEM</span>
+                    <span class="tech-tag">Predictive Analytics</span>
+                    <span class="tech-tag">Modbus TCP</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Apache Kafka</span>
+                    <span class="tech-tag">TimescaleDB</span>
+                </div>
+
+                <h2>Global Operations</h2>
+                <p>With regional headquarters in Munich (EMEA Operations), Singapore (APAC Operations), Detroit (Americas Operations), and São Paulo (Latin America Division), Quantalyx Industries maintains a presence in 14 countries. Our global deployment teams, based out of the Quantalyx Field Services Organization, provide on-site support and integration services for complex industrial environments.</p>
+
+                <p>The company's Research and Development Division, headquartered at the Quantalyx Innovation Campus in Zurich, continuously advances our core technologies. Recent breakthroughs from Project Helios have enabled next-generation anomaly detection capabilities, while Project Aegis has delivered enhanced security protocols for air-gapped manufacturing networks.</p>
+
+                <h2>Our Commitment</h2>
+                <p>Quantalyx Industries remains committed to driving the fourth industrial revolution through innovation, security, and operational excellence. We believe that the factories of tomorrow will be defined by autonomous intelligence, seamless connectivity, and resilient security architectures. Our mission is to make that future accessible to manufacturers of all sizes, from emerging growth companies to established global enterprises.</p>
+
+                <div style="margin-top: 3rem; text-align: center;">
+                    <a href="team.html" class="btn btn-primary">Meet Our Leadership Team</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">QUANTALYX INDUSTRIES</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="team.html">Team</a>
+                <a href="history.html">History</a>
+            </div>
+            <p class="copyright">&copy; 2025 Quantalyx Industries. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

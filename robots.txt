@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /staff/
+Disallow: /staff/login.html
+Disallow: /staff/evelyn-root-profile.html
+Disallow: /internal/
+Disallow: /admin/
+Disallow: /api/v1/debug/
+Allow: /
+
+Sitemap: https://quantalynx-industries.site/sitemap.xml
